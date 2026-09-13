@@ -3,6 +3,7 @@ import { CiStar } from "react-icons/ci";
 import { FaReact } from "react-icons/fa";
 import type { IPopularProduct } from "../types";
 import { RxCross2 } from "react-icons/rx";
+import { Bounce, toast } from "react-toastify";
 interface IpopularProductsProps {
   usersPromise: Promise<IPopularProduct[]>;
 }
@@ -13,12 +14,30 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
   const handleAddToCart = (product: IPopularProduct) => {
     console.log("clicked add to card", product);
     setCart([...cart, product]);
+    toast.success(`${product.title} added to cart!`, {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
   };
   return (
     <div className="container mx-auto flex flex-col gap-7">
       <div className="flex flex-col gap-3">
-        <h1 className="text-4xl font-bold">Explore the <span className="bg-gradient-to-b from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">Technologies</span></h1>
-        <p className="text-xl text-[#64748bFF]">Pick one technology per category to build your ideal stack.</p>
+        <h1 className="text-4xl font-bold">
+          Explore the{" "}
+          <span className="bg-gradient-to-b from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">
+            Technologies
+          </span>
+        </h1>
+        <p className="text-xl text-[#64748bFF]">
+          Pick one technology per category to build your ideal stack.
+        </p>
       </div>
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-8 w-full ">
@@ -124,6 +143,7 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
                     <button
                       onClick={() => {
                         setCart(cart.filter((_, i) => i !== index));
+                        toast.success("Product removed from cart!");
                       }}
                       className="text-2xl text-gray-400 hover:text-red-500"
                     >
@@ -134,7 +154,10 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
 
                 {/* Remove All */}
                 <button
-                  onClick={() => setCart([])}
+                  onClick={() =>{
+                    setCart([]);
+                    toast.success("Product removed from cart!");
+                  } }
                   className="mt-8 w-full rounded-xl border border-red-300 py-3 font-semibold text-red-500 hover:bg-red-50"
                 >
                   Remove All

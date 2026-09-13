@@ -1,23 +1,25 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import Technologies from './components/Technologies'
-import type { IPopularProduct } from './types'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Technologies from "./components/Technologies";
+import type { IPopularProduct } from "./types";
+import { ToastContainer } from "react-toastify";
 
-const usersFetch = async ():Promise<IPopularProduct[]> =>{
+const usersFetch = async (): Promise<IPopularProduct[]> => {
   const response = await fetch("../public/technologies-card.json");
   const data = await response.json();
   return data;
-}
+};
 
-const usersPromise =  usersFetch();
+const usersPromise = usersFetch();
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
- <Navbar/>
- <Banner/>
- <Technologies usersPromise={usersPromise}/>
+    <Navbar />
+    <Banner />
+    <Technologies usersPromise={usersPromise} />
+    <ToastContainer />
   </StrictMode>,
-)
+);
