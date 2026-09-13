@@ -1,92 +1,101 @@
 [
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "title": "React",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
     "category": "Frontend",
     "level": "Beginner-Friendly",
-    "rating": 4.5,
+    "rating": 4.9,
     "badge": "Popular",
+    "badgeBgColor": "#EAF6FF",
+    "badgeTextColor": "#1597E5",
     "productimg": "../src/assets/products/React.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "title": "Vue.js",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
     "category": "Frontend",
     "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "rating": 4.8,
+    "badge": "Versatile",
+    "badgeBgColor": "#E9FFF5",
+    "badgeTextColor": "#16A36A",
+    "productimg": "../src/assets/products/Vue.js.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "title": "Svelte",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
     "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "level": "Intermediate",
+    "rating": 4.8,
+    "badge": "Fast",
+    "badgeBgColor": "#FFF4E8",
+    "badgeTextColor": "#F27B22",
+    "productimg": "../src/assets/products/Svelte.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "title": "Next.js",
+    "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
     "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "level": "Intermediate",
+    "rating": 4.9,
+    "badge": "SSR / Edge",
+    "badgeBgColor": null,
+    "badgeTextColor": null,
+    "productimg": "../src/assets/products/Next.js.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "title": "Node.js",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "badge": "Standard",
+    "badgeBgColor": "#E9FFF5",
+    "badgeTextColor": "#16A36A",
+    "productimg": "../src/assets/products/Node.js.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "title": "PostgreSQL",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "badge": "Top SQL",
+    "badgeBgColor": "#EEF5FF",
+    "badgeTextColor": "#3478D4",
+    "productimg": "../src/assets/products/PostgresSQL.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "title": "Redis",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "badge": "Cache",
+    "badgeBgColor": "#FFF0F0",
+    "badgeTextColor": "#E34B4B",
+    "productimg": "../src/assets/products/Redis.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "category": "Frontend",
+    "title": "JavaScript",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "category": "Language",
     "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "rating": 4.9,
+    "badge": "Ubiquitous",
+    "badgeBgColor": "#FFFBE8",
+    "badgeTextColor": "#D89B00",
+    "productimg": "../src/assets/products/JavaScript.svg.png"
   },
   {
-    "title": "Wireless Headphones",
-    "description":
-      "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "category": "Frontend",
-    "level": "Beginner-Friendly",
-    "rating": 4.5,
-    "badge": "Popular",
-    "productimg": "../src/assets/products/React.png"
+    "title": "TypeScript",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "badge": "Essential",
+    "badgeBgColor": "#EAF6FF",
+    "badgeTextColor": "#1597E5",
+    "productimg": "../src/assets/products/TypeScript.svg.png"
   }
 ]

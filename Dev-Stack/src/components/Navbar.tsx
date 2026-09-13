@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <div className="border-b border-gray-300 p-[24px]">
     <nav className="flex justify-between container mx-auto">
-      <img src={Logo} alt="" className="w-[120px] h-[32px]"/>
-      <ul className="flex gap-4 items-center">
-        <li>
+      <img src={Logo} alt="" className="w-[150px] "/>
+      <ul className="flex gap-4 items-center ">
+        <li className="text-[#db2777FF]">
           <a href="">Home</a>
         </li>
         <li>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
       <div className="flex gap-4 items-center">
         <button>Sign In</button>
-        <button>SignUp</button>
+        <button className="bg-[#db2777FF] text-white  py-2 px-4 rounded-full">Sign Up</button>
       </div>
     </nav>
     </div>
