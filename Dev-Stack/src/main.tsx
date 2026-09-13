@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import Footer from "./components/Footer";
 
 const usersFetch = async (): Promise<IPopularProduct[]> => {
-  const response = await fetch("../public/technologies-card.json");
+  const response = await fetch("/technologies-card.json");
   const data = await response.json();
   return data;
 };
