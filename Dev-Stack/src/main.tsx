@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Navbar from "./components/Navbar";
@@ -19,7 +19,13 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Navbar />
     <Banner />
-    <Technologies usersPromise={usersPromise} />
+    <Suspense
+      fallback={
+        <h3 className="mt-5 text-xl font-semibold text-gray-800">Loading...</h3>
+      }
+    >
+      <Technologies usersPromise={usersPromise} />
+    </Suspense>
     <ToastContainer />
   </StrictMode>,
 );

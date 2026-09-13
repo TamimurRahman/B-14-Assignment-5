@@ -12,7 +12,12 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
   const data = use(usersPromise);
   const [cart, setCart] = useState<IPopularProduct[]>([]);
   const handleAddToCart = (product: IPopularProduct) => {
-    console.log("clicked add to card", product);
+    const alreadyAdded = cart.some((item) => item.title === product.title);
+
+    if (alreadyAdded) {
+      toast.warning(`${product.title} is already added!`);
+      return;
+    }
     setCart([...cart, product]);
     toast.success(`${product.title} added to cart!`, {
       position: "bottom-right",
@@ -30,8 +35,7 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
     <div className="container mx-auto flex flex-col gap-7">
       <div className="flex flex-col gap-3">
         <h1 className="text-4xl font-bold">
-          Explore the{" "}
-          <span className="bg-gradient-to-b from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">
+          Explore the <span className="bg-gradient-to-b from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">
             Technologies
           </span>
         </h1>
@@ -94,7 +98,7 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
                     onClick={() => handleAddToCart(product)}
                     className="mt-4 w-full rounded-lg bg-[#080d1c] py-2.5 text-sm font-semibold text-white"
                   >
-                    Add to Stack
+                    {cart.includes(product) ? "Added" : "Add to Stack"}
                   </button>
                 </div>
               );
@@ -154,10 +158,10 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
 
                 {/* Remove All */}
                 <button
-                  onClick={() =>{
+                  onClick={() => {
                     setCart([]);
-                    toast.success("Product removed from cart!");
-                  } }
+                    toast.success("All product removed from cart!");
+                  }}
                   className="mt-8 w-full rounded-xl border border-red-300 py-3 font-semibold text-red-500 hover:bg-red-50"
                 >
                   Remove All
