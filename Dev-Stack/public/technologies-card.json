@@ -28,8 +28,6 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Fast",
-    "badgeBgColor": "#FFF4E8",
-    "badgeTextColor": "#F27B22",
     "productimg": "../src/assets/products/Svelte.svg.png"
   },
   {
@@ -39,8 +37,6 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "SSR / Edge",
-    "badgeBgColor": null,
-    "badgeTextColor": null,
     "productimg": "../src/assets/products/Next.js.svg.png"
   },
   {
@@ -50,8 +46,6 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Standard",
-    "badgeBgColor": "#E9FFF5",
-    "badgeTextColor": "#16A36A",
     "productimg": "../src/assets/products/Node.js.svg.png"
   },
   {
@@ -61,8 +55,6 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "Top SQL",
-    "badgeBgColor": "#EEF5FF",
-    "badgeTextColor": "#3478D4",
     "productimg": "../src/assets/products/PostgresSQL.svg.png"
   },
   {
@@ -72,8 +64,6 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Cache",
-    "badgeBgColor": "#FFF0F0",
-    "badgeTextColor": "#E34B4B",
     "productimg": "../src/assets/products/Redis.svg.png"
   },
   {
@@ -83,8 +73,6 @@
     "level": "Beginner-Friendly",
     "rating": 4.9,
     "badge": "Ubiquitous",
-    "badgeBgColor": "#FFFBE8",
-    "badgeTextColor": "#D89B00",
     "productimg": "../src/assets/products/JavaScript.svg.png"
   },
   {
@@ -94,8 +82,6 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "Essential",
-    "badgeBgColor": "#EAF6FF",
-    "badgeTextColor": "#1597E5",
     "productimg": "../src/assets/products/TypeScript.svg.png"
   }
 ]

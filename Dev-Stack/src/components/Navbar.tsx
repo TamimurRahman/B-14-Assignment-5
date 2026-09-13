@@ -1,4 +1,4 @@
-import { CiSearch, CiShoppingCart } from "react-icons/ci";
+
 import Logo from "../assets/logo-text.png";
 import "../index.css"
 const Navbar = () => {

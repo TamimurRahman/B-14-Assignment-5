@@ -1,6 +1,4 @@
-import React, { use, useState } from "react";
-import { CiStar } from "react-icons/ci";
-import { FaReact } from "react-icons/fa";
+import  { use, useState } from "react";
 import type { IPopularProduct } from "../types";
 import { RxCross2 } from "react-icons/rx";
 import { Bounce, toast } from "react-toastify";
