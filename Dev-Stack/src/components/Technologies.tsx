@@ -15,10 +15,10 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
     setCart([...cart, product]);
   };
   return (
-    <div className="container mx-auto">
-      <div>
-        <h1 className="text-4xl font-bold">Explore the Technologies</h1>
-        <p>Pick one technology per category to build your ideal stack.</p>
+    <div className="container mx-auto flex flex-col gap-7">
+      <div className="flex flex-col gap-3">
+        <h1 className="text-4xl font-bold">Explore the <span className="bg-gradient-to-b from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">Technologies</span></h1>
+        <p className="text-xl text-[#64748bFF]">Pick one technology per category to build your ideal stack.</p>
       </div>
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-8 w-full ">
@@ -57,7 +57,7 @@ const Technologies = ({ usersPromise }: IpopularProductsProps) => {
                         {product.category}
                       </span>
 
-                      <span className="bg-gray-50 px-2 py-1 text-xs text-gray-500">
+                      <span className=" px-2 py-1 text-xs text-gray-500">
                         {product.level}
                       </span>
                     </div>
