@@ -8,7 +8,7 @@
     "badge": "Popular",
     "badgeBgColor": "#EAF6FF",
     "badgeTextColor": "#1597E5",
-    "productimg": "../src/assets/products/React.png"
+    "productimg": "/assets/products/React.png"
   },
   {
     "title": "Vue.js",
@@ -19,7 +19,7 @@
     "badge": "Versatile",
     "badgeBgColor": "#E9FFF5",
     "badgeTextColor": "#16A36A",
-    "productimg": "../src/assets/products/Vue.js.png"
+    "productimg": "/assets/products/Vue.js.png"
   },
   {
     "title": "Svelte",
@@ -28,7 +28,7 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Fast",
-    "productimg": "../src/assets/products/Svelte.svg.png"
+    "productimg": "/assets/products/Svelte.svg.png"
   },
   {
     "title": "Next.js",
@@ -37,7 +37,7 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "SSR / Edge",
-    "productimg": "../src/assets/products/Next.js.svg.png"
+    "productimg": "/assets/products/Next.js.svg.png"
   },
   {
     "title": "Node.js",
@@ -46,7 +46,7 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Standard",
-    "productimg": "../src/assets/products/Node.js.svg.png"
+    "productimg": "/assets/products/Node.js.svg.png"
   },
   {
     "title": "PostgreSQL",
@@ -55,7 +55,7 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "Top SQL",
-    "productimg": "../src/assets/products/PostgresSQL.svg.png"
+    "productimg": "/assets/products/PostgresSQL.svg.png"
   },
   {
     "title": "Redis",
@@ -64,7 +64,7 @@
     "level": "Intermediate",
     "rating": 4.8,
     "badge": "Cache",
-    "productimg": "../src/assets/products/Redis.svg.png"
+    "productimg": "/assets/products/Redis.svg.png"
   },
   {
     "title": "JavaScript",
@@ -73,7 +73,7 @@
     "level": "Beginner-Friendly",
     "rating": 4.9,
     "badge": "Ubiquitous",
-    "productimg": "../src/assets/products/JavaScript.svg.png"
+    "productimg": "/assets/products/JavaScript.svg.png"
   },
   {
     "title": "TypeScript",
@@ -82,6 +82,6 @@
     "level": "Intermediate",
     "rating": 4.9,
     "badge": "Essential",
-    "productimg": "../src/assets/products/TypeScript.svg.png"
+    "productimg": "/assets/products/TypeScript.svg.png"
   }
 ]
