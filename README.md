@@ -2,14 +2,20 @@
  
  
 QNA About Assignment
+
 Q:Name of your project
 Ans:My project name is Dev Stack
+
 Q:A little description
 Ans:This is an single page website this website have several technologies like react,vue,next user can select technologies and add to cart and delete read from the json file.
+
 Q:Technology that you use
 Ans:In this project i use severals technologies that are JavaScripts,Tailwind CSS,TypeScript,React,Deployment,Version Controls
+
 Q:3 features about your project
+
 Ans: a.User can select cards
+
     b.User removed selected card from stack
     c.User when select same cart again get warning
 
