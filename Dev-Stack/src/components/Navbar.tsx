@@ -3,8 +3,8 @@ import Logo from "../assets/logo-text.png";
 import "../index.css"
 const Navbar = () => {
   return (
-    <div className="border-b border-gray-300 p-[24px]">
-    <nav className="flex justify-between container mx-auto">
+    <div className="border-b border-gray-300 p-[24px] sticky top-0 z-50 bg-white">
+    <nav className="flex justify-between container mx-auto ">
       <img src={Logo} alt="" className="w-[150px] "/>
       <ul className="flex gap-4 items-center ">
         <li className="text-[#db2777FF]">
