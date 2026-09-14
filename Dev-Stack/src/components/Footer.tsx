@@ -2,9 +2,9 @@
 import Logo from "/assets/logo-text.png";
 const Footer = () => {
   return (
-    <div>
+    <div className="border-t-[1px] border-gray-100 p-[24px] sticky top-0 z-50 mt-20">
      
- <div className=" flex  flex-col container mx-auto mt-20 gap-[88px] p-10">
+ <div className=" flex  flex-col container mx-auto  gap-[88px] p-10">
      
       <div className="grid grid-cols-4 text-1">
         <div className="flex flex-col gap-5">
